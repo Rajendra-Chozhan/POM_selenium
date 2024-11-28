@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="utilities_package.Listeners_Fab" />
+	</listeners>
+  <test name="Test">
+  <parameter name = "Browser" value ="firefox"/>
+    <classes>
+
+
+ 
+ <class name="testcases_package.TestCase001_Login_Logout_Fab"/> 
+ 
+         
+         
+              
+       </classes>
+  </test>
+</suite> 
+
+
